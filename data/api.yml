@@ -20646,7 +20646,9 @@ classitems:
   description: |-
     A computed property which returns a new array with all the unique
     elements from an array, with uniqueness determined by specific key.
+
     Example
+    
     ```javascript
     var Hamster = Ember.Object.extend({
       uniqueFruits: Ember.computed.uniqBy('fruits', 'id')
